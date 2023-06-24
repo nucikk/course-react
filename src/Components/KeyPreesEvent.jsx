@@ -1,5 +1,6 @@
 function KeyPressEvent() {
-  //ღილაკზე დაჭერისას ითვლის რაოდენობას
+
+  //!კლავიშის დაჭერის event: ღილაკზე დაჭერისას ითვლის რაოდენობას
   function handleKeyPress() {
     console.log("keyPress you ...");
   }
@@ -11,6 +12,7 @@ function KeyPressEvent() {
         placeholder="send keyPrees --- "
         onKeyPress={(e) => handleKeyPress(e)}
       />
+
     </>
   );
 }
