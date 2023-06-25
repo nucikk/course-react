@@ -13,7 +13,6 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-
 }
 
 html,
@@ -32,9 +31,9 @@ li,
 footer,
 header,
 nav {
-  margin: 0;
   padding: 0;
   border: 0;
+  margin: 10px;
 }
 
 button:focus,

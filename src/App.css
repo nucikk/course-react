@@ -1,7 +1,21 @@
-.keyPress_input {
-  margin: 20px;
+.keyPress_input,.change_input  {
   padding: 10px 40px;
   border-radius: 7px;
   border: 2px solid rgb(32, 149, 149);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.submit_button {
+  background-color: #008CBA; 
+  color: white; 
+  padding: 12px 24px; 
+  border: none; 
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer; 
+  transition: 0.3s ease-in-out;
+}
+
+.submit_button:hover {
+  background-color: #005F6B; 
 }

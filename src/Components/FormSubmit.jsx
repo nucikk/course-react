@@ -13,7 +13,7 @@ function FormSubmit() {
       <h1>Form submission</h1>
       <form onSubmit={handleformSubmit}>
         {/* Button-ზე დაჭერისას იცვლება "LLS"-დან Send-ზე */}
-        <button type="submit">Submit Message {clickSub}</button>
+        <button className="submit_button" type="submit">Submit Message {clickSub}</button>
       </form>
     </>
   );
