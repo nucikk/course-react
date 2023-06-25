@@ -1,6 +1,7 @@
 
 import './App.css'
 import DynamcTextField from './Components/DynamicTextField'
+import FormSubmit from './Components/FormSubmit'
 import KeyPressEvent from './Components/KeyPreesEvent'
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <>
       <KeyPressEvent />
       <DynamcTextField />
+      <FormSubmit />
     </>
   )
 }
