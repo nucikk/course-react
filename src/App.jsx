@@ -1,9 +1,11 @@
 
 import './App.css'
-import ChangeEvent from './Components/ChangeEvent'
-import DynamcTextField from './Components/DynamicTextField'
-import FormSubmit from './Components/FormSubmit'
-import KeyPressEvent from './Components/KeyPreesEvent'
+// events components imports
+import ChangeEvent from './Components/Events/ChangeEvent'
+import DynamcTextField from './Components/Events/DynamicTextField'
+import FormSubmit from './Components/Events/FormSubmit'
+import KeyPressEvent from './Components/Events/KeyPreesEvent'
+import VisibilityToggle from './Components/Events/VisibilityToggle'
 
 function App() {
 
@@ -13,6 +15,7 @@ function App() {
       <DynamcTextField />
       <FormSubmit />
       <ChangeEvent />
+      <VisibilityToggle />
     </>
   )
 }

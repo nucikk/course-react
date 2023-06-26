@@ -5,7 +5,7 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.submit_button {
+.submit_button, .technolgy_button {
   background-color: #008CBA; 
   color: white; 
   padding: 12px 24px; 
@@ -16,6 +16,14 @@
   transition: 0.3s ease-in-out;
 }
 
-.submit_button:hover {
+.submit_button:hover, .technolgy_button:hover {
   background-color: #005F6B; 
+}
+
+.technolgy_text {
+  width: 40%;
+}
+
+.technolgy_button {
+  margin: 0  30px;
 }
